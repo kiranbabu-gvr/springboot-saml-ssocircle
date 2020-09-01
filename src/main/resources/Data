@@ -1,0 +1,14 @@
+SSO Circle:
+--------------------------------------------------------------
+UserID: kiran
+Password: kiranbabu
+
+URL'S:
+---------------------------------------------------------------
+Login: http://localhost:8080/saml/login?idp=https://idp.ssocircle.com
+
+Local(Application or SP) logout: http://localhost:8080/saml/logout?local=true
+
+Global(IDP) logout: http://localhost:8080/saml/logout
+
+SP metadata: http://localhost:8080/saml/metadata(resources/spring_saml_metadata.xml)
